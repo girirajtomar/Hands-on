@@ -1,0 +1,36 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main-container {
+    width : 180px;
+    height : 180px;
+    border: 1px solid black;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#main-container div{
+    width : 59px;
+    height: 59px;
+    border : 1px dotted black;
+    margin : 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#turn-helper {
+    font-size : 1.3em;
+}
